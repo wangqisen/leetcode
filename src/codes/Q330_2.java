@@ -5,6 +5,11 @@ package codes;
  */
 public class Q330_2 {
 
+    /*
+    *
+    * 参考http://www.bubuko.com/infodetail-1345277.html中的解法
+    *
+    * */
     public int minPatches(int[] nums, int n) {
         int miss=1,index=0,times=0;
         while(miss<=n){

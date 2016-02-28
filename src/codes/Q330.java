@@ -10,6 +10,12 @@ import java.util.ArrayList;
  */
 public class Q330 {
 
+    /*
+    *
+    * 最简单的思路就是将添加的可能性元素都通过迭代的方式试一遍,直至满足可以加到n为止.
+    *
+    * */
+
     private int miniumEleNum=Integer.MAX_VALUE;
 
     public int minPatches(int[] nums, int n) {
